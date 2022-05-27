@@ -1,3 +1,3 @@
 # blog
 This is a blog website on progress
-click [here](Link) to see preview
+click [here](https://iamsujitroy.github.io/blog/) to see preview
