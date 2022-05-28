@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap");
+/* INDEX PAGE STARTES HERE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav section starts here */
+nav {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  height: 60px;
+  margin: auto;
+  padding: 0 20px;
+}
+.logo {
+  font-family: "Kanit", sans-serif;
+  font-size: 2.6rem;
+}
+.menu-container {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+}
+ul.menu {
+  display: flex;
+  list-style: none;
+  color: #a1a1a1;
+}
+.menu li {
+  margin-right: 25px;
+}
+.menu li a {
+  font-size: 1rem;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #a1a1a1;
+}
+.menu li a:active {
+  color: #787777;
+}
+input#search {
+  width: 200px;
+  padding: 7px 19px;
+  border: 1px solid #e2e2e2;
+  outline: none;
+  border-radius: 18px;
+  color: #a1a1a1;
+  font-size: 1rem;
+}
+input#search::placeholder {
+  color: #a1a1a1;
+}
+/* nav section ends here */
+/* main section starts here */
+.main-section {
+  width: 1140px;
+  height: 350px;
+  margin: auto;
+  /* background-color: yellow; */
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.main-section h1 {
+  padding-top: 90px;
+  font-size: 4rem;
+}
+.main-section p {
+  font-size: 1.5rem;
+  margin: 0 50px;
+  padding-top: 6px;
+}
+/* main section ends here */
+/* footer section starts here */
+footer {
+  font-family: "Roboto", sans-serif;
+}
+.footer-container {
+  height: 50px;
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.footer-container a {
+  color: red;
+  text-decoration: none;
+}
+/* footer section ends here */

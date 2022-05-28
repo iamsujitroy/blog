@@ -1,0 +1,33 @@
+.post-section {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+}
+.left-bar {
+  display: inline-block;
+  width: 190px;
+  padding: 0 15px;
+  /* background: palegreen; */
+}
+.post-container {
+  display: inline-block;
+  width: 730px;
+  padding: 0 15px;
+  /* background: palegoldenrod; */
+}
+.post-container .author {
+  padding: 15px 0;
+  display: flex;
+}
+.post-container .profile-img {
+  width: 126px;
+  padding: 0 70px 0 15px;
+}
+.post-container .profile-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.post-container .info-container {
+  padding: 0 15px;
+}
