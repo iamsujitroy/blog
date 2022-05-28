@@ -17,7 +17,38 @@
 }
 .post-container .author {
   padding: 15px 0;
+  font-family: "Roboto", sans-serif;
   display: flex;
+}
+.post-container .author .name-container .name {
+  font-size: 1.1rem;
+  color: #000000cc;
+}
+.post-container .author .name-container button {
+  padding: 1px 7px;
+  background: white;
+  color: green;
+  border: 2px solid green;
+  border-radius: 12px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+.post-container .author .name-container button:active {
+  box-shadow: 2px 2px 10px #00000036;
+}
+.post-container .author .about p {
+  line-height: 23px;
+  letter-spacing: 0.7px;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #000000a8;
+  margin-top: 8px;
+}
+.post-container .author .date {
+  color: #000000a8;
+  display: inline-block;
+  font-weight: 300;
+  margin-top: 6px;
 }
 .post-container .profile-img {
   width: 126px;
@@ -30,4 +61,44 @@
 }
 .post-container .info-container {
   padding: 0 15px;
+}
+.post-title {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+.post-img {
+  margin-top: 25px;
+}
+.post-img img {
+  width: 100%;
+}
+.post-content {
+  margin-top: 20px;
+  font-family: 'PT Serif', serif;
+  /* font-family: ; */
+}
+.post-content p {
+  font-size: 1.4rem;
+  line-height: 37px;
+  color: #000000c9;
+  margin-bottom: 23px;
+}
+.post-content .quote-container{
+  display: flex;
+  margin: 23px 0;
+}
+.post-content .quote-container .line{
+  display: inline-block;
+  width: 3px;
+  background: green;
+}
+.post-content .quote-container blockquote {
+  display: inline-block;
+  width: 90%;
+  padding-left: 30px;
+  font-size: 1.4rem;
+  line-height: 37px;
+  color: #00000098;
+  font-style: italic;
 }
