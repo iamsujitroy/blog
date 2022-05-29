@@ -9,11 +9,28 @@
   padding: 0 15px;
   /* background: palegreen; */
 }
+.share-conatiner {
+  width: fit-content;
+  font-size: 1.3rem;
+  position: sticky;
+  top: 100px;
+  left: 0;
+  opacity: 0.5;
+}
+.share-options {
+  display: flex;
+  flex-direction: column;
+}
+.share-conatiner img {
+  width: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
 .post-container {
   display: inline-block;
   width: 730px;
   padding: 0 15px;
-  /* background: palegoldenrod; */
 }
 .post-container .author {
   padding: 15px 0;
@@ -34,7 +51,7 @@
   cursor: pointer;
 }
 .post-container .author .name-container button:active {
-  box-shadow: 2px 2px 10px #00000036;
+  box-shadow: 0px 0px 10px #00000036;
 }
 .post-container .author .about p {
   line-height: 23px;
@@ -75,7 +92,7 @@
 }
 .post-content {
   margin-top: 20px;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   /* font-family: ; */
 }
 .post-content p {
@@ -84,11 +101,11 @@
   color: #000000c9;
   margin-bottom: 23px;
 }
-.post-content .quote-container{
+.post-content .quote-container {
   display: flex;
   margin: 23px 0;
 }
-.post-content .quote-container .line{
+.post-content .quote-container .line {
   display: inline-block;
   width: 3px;
   background: green;
@@ -101,4 +118,59 @@
   line-height: 37px;
   color: #00000098;
   font-style: italic;
+}
+#comment {
+  width: 80%;
+  padding: 9px 15px;
+  outline: none;
+  border-radius: 50px;
+  border: 2px solid #00000086;
+}
+.comment-input-container {
+  margin-top: 80px;
+  /* box-shadow: 0 0 20px #00000024; */
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.comment-input-container button {
+  width: 16%;
+  padding: 9px 15px;
+  outline: none;
+  border-radius: 50px;
+  border: 2px solid #008000b4;
+  color: #008000b4;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.comments-container {
+  margin-top: 50px;
+  width: 500px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.comment {
+  display: flex;
+  margin-bottom: 20px;
+}
+.comment .left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.comment .right {
+  padding-left: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.comment .right .name {
+  color: #00000098;
+  /* font-size: 0.87rem; */
+}
+.comment .right .comment-para {
+  color: #00000098;
+  margin-top: 5px;
+  line-height: 27px;
+  /* font-size: 0.9rem; */
 }
